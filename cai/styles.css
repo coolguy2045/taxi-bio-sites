@@ -594,6 +594,35 @@ blockquote.quote footer {
 .steps p, .steps ul { margin: 0.4rem 0 0; font-size: 0.95rem; }
 .steps ul { padding-left: 1.15rem; }
 
+/* Dark section: light cards need dark text (fix white-on-white) */
+.section-dark .steps li {
+  color: var(--charcoal-900);
+}
+.section-dark .steps h3 {
+  color: var(--charcoal-900);
+}
+.section-dark .steps p,
+.section-dark .steps li ul,
+.section-dark .steps li li {
+  color: var(--text-muted);
+}
+.section-dark .steps strong {
+  color: var(--charcoal-900);
+}
+.section-dark .dont-list {
+  color: var(--charcoal-900);
+}
+.section-dark .dont-list ul {
+  color: var(--charcoal-800);
+}
+.section-dark .guidance-banner {
+  color: var(--slate-200);
+}
+.section-dark .guidance-banner strong {
+  color: var(--paper);
+}
+
+
 .email-cta {
   display: inline-flex;
   align-items: center;
